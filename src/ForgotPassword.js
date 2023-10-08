@@ -40,7 +40,7 @@ function ForgotPassword()
         <div className="login_form" style={{"padding-bottom": "25px;"}}>
             <form >
 
-                <input type="email" name="Email" placeholder="Enter Email ID" onChange={(event) =>{setEmail(event.target.value);}}/><br/>
+                <input type="email" name="Email" placeholder="Enter Email ID" /><br/>
 
                 
 
