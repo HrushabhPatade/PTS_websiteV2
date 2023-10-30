@@ -53,7 +53,26 @@ function Quote(){
 
     const Generate = (event) =>{
 		event.preventDefault();
+        if ((name.trim().length == 0) || (! name.match(/^[A-z ]+$/))){
+            alert("Invalid Name");
+            setName("");
+            rName.current.focus();
+            setAns("");
+            return;
+        }
+
+        if (desc.length==0){
+            alert("Description can't be empty"); 
             
+            return;
+        }  
+        if ((cno.length<=0)|| (cno.length>11)){
+            alert("Invalid Number");
+            
+           
+            setAns("");
+            return;
+    }      
 
 		configureCaptcha();
 		let pn = "+91" + cno;

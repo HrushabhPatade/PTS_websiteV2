@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import g15 from "./dell g15.jpg";
+import g15 from "../images/dell g15.jpg";
 
 
 function Card(props) {
