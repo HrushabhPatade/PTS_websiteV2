@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import pts from "./PTS.jpeg"
+import pts from "../images/PTS.jpeg"
 import { IconName } from "react-icons/ci";
 
 

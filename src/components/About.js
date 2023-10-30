@@ -1,4 +1,4 @@
-import Quote from "./Quote";
+import Quote from "../components/Quote";
 import Footer from "./Footer";
 
 function About() {
